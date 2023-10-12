@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: aliceblue;
+    font-family: sans-serif;
+}
+main {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+#title {
+    font-size: 40px;
+}
+
+#errorlog {
+    display: none;
+    background-color: red;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    padding: 1rem;
+}
+#answer {
+    background-color: darkgreen;
+    color: #fff;
+    padding: 1rem;
+}
