@@ -4,20 +4,60 @@
     box-sizing: border-box;
 }
 body {
-    background-color: aliceblue;
+    background-color: #E5F0FF;
     font-family: sans-serif;
+    height: 100%;
 }
 main {
+    background-color: #F2F8FD;
+    padding: 1dvw;
     width: 100%;
     max-width: 400px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
+    margin: 30dvh auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 2px #F2F8FD;
+}
+main * {
+    margin: 1dvh 0;
 }
 #title {
     font-size: 40px;
 }
-
+.input-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.input-container * {
+    height: 40px;
+    font-size: 20px;
+    border-color: #51EAFF;
+    padding: 0 1dvw;
+}
+#list {
+    width: 100%;
+    max-width: 200px;
+}
+#count {
+    width: 100%;
+    max-width: 150px;
+    outline: none;
+    border: none;
+}
+#button {
+    width: 100%;
+    height: 40px;
+    background-color: #51EAFF;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    transition: .4s ease-out;
+}
+#button:hover {
+    background-color: #64C7FF;
+    cursor: pointer;
+}
 #errorlog {
     display: none;
     background-color: red;
@@ -27,7 +67,8 @@ main {
     padding: 1rem;
 }
 #answer {
-    background-color: darkgreen;
+    background-color: #1EC9E8;
     color: #fff;
+    font-size: 20px;
     padding: 1rem;
 }

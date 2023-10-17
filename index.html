@@ -9,17 +9,19 @@
 <body>
     <main>
         <h1 id="title">Calculator</h1>
-        <select name="list[]" id="list">
-            <option value="190">Капучино</option>
-            <option value="180">Латте</option>
-            <option value="150">Американо</option>
-            <option value="120">Эспрессо</option>
-            <option value="220">Раф</option>
-        </select>
-        <input type="text" id="count">
-        <button onclick="calculate()">Рассчитать</button>
+        <div class="input-container">
+            <select name="list[]" id="list">
+                <option value="190">Капучино</option>
+                <option value="180">Латте</option>
+                <option value="150">Американо</option>
+                <option value="120">Эспрессо</option>
+                <option value="220">Раф</option>
+            </select>
+            <input type="text" id="count" placeholder="Количество">
+        </div>
+        <button onclick="calculate()" id="button">Рассчитать</button>
         <div id="errorlog"></div>
-        <div id="answer"></div>
+        <div id="answer">Ответ</div>
     </main>
     <script src="index.js"></script>
 </body>
