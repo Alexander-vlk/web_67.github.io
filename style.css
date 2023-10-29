@@ -6,14 +6,13 @@
 body {
     background-color: #E5F0FF;
     font-family: sans-serif;
-    height: 100%;
 }
 main {
     background-color: #F2F8FD;
     padding: 1dvw;
     width: 100%;
-    max-width: 400px;
-    margin: 30dvh auto;
+    max-width: 420px;
+    margin: 20dvh auto;
     border-radius: 10px;
     box-shadow: 2px 2px 5px 2px #F2F8FD;
 }
@@ -34,17 +33,32 @@ main * {
     border-color: #51EAFF;
     padding: 0 1dvw;
 }
+.plan-container {
+    background-color: #fff;
+    padding: 1dvw;
+    border-radius: 10px;
+}
+.plan-container .plan-fields {
+    font-size: 20px;
+}
+.plan-container .plan-fields input {
+    margin-right: 1dvw;
+}
 #list {
     width: 100%;
     max-width: 200px;
 }
-#count {
+.count-6 {
+    padding: 1dvw;
+    font-size: 20px;
+}
+.count {
     width: 100%;
     max-width: 150px;
     outline: none;
     border: none;
 }
-#button {
+#button-5, #button-6 {
     width: 100%;
     height: 40px;
     background-color: #51EAFF;
@@ -58,7 +72,10 @@ main * {
     background-color: #64C7FF;
     cursor: pointer;
 }
-#errorlog {
+.option {
+    width: 100%;
+}
+#errorlog-5, #errorlog-6 {
     display: none;
     background-color: red;
     color: #fff;
@@ -66,7 +83,7 @@ main * {
     text-align: center;
     padding: 1rem;
 }
-#answer {
+#answer-5, #answer-6 {
     background-color: #1EC9E8;
     color: #fff;
     font-size: 20px;
