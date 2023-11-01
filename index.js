@@ -23,7 +23,16 @@ const products = {
     "product1": {
         "name": "Стартовый",
         "price": 39,
-        "subproducts": [ ],
+        "subproducts": [
+            {
+                "name": "4гб RAMg + 1тб HDD",
+                "price": 39
+            },
+            {
+                "name": "6гб RAM + 1тб HDD",
+                price: 49,
+            },
+        ],
         "subproperty": { }
     },
     "product2": {
