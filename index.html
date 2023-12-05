@@ -1,26 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Slider</title>
-    <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
-
-    <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Слайдер - задание 7</title>
+    <link rel="stylesheet" href="slider/splide-sea-green.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="slider/splide.min.js" defer></script>
+    <script src="./script.js" defer></script>
 </head>
-<body>
 
-        <div class="swiper-slide"><img src="photo_1_2023-11-29_11-30-00.jpg" alt="text"></div>
-        <div class="swiper-slide"><img src="photo_2_2023-11-29_11-30-00.jpg" alt="text"></div>
-        <div class="swiper-slide"><img src="photo_3_2023-11-29_11-30-00.jpg" alt="text"></div>
-        <div class="swiper-slide"><img src="photo_4_2023-11-29_11-30-00.jpg" alt="text"></div>
-        <div class="swiper-slide"><img src="photo_5_2023-11-29_11-30-00.jpg" alt="text"></div>
-        <div class="swiper-slide"><img src="photo_6_2023-11-29_11-30-00.jpg" alt="text"></div>
-        <div class="swiper-slide"><img src="photo_7_2023-11-29_11-30-00.jpg" alt="text"></div>
-        <div class="swiper-slide"><img src="photo_8_2023-11-29_11-30-00.jpg" alt="text"></div>
-        <div class="swiper-slide"><img src="photo_9_2023-11-29_11-30-00.jpg" alt="text"></div>
+<body>
+    <div class="content">
+        <h1 class="slider-header">Слайдер</h1>
+        <section id="image-carousel" class="splide" aria-label="Beautiful Images">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                        <img src="images/img3.jpg" alt="Гослинг лежит на ступеньках">
+                    </li>
+                    <li class="splide__slide">
+                        <img src="images/img4.jpg" alt="Гослинг сидит">
+                    </li>
+                    <li class="splide__slide">
+                        <img src="images/img5.jpg" alt="Гослинг с другом">
+                    </li>
+                    <li class="splide__slide">
+                        <img src="images/img6.jpg" alt="Гослинг фоткается на паспорт">
+                    </li>
+                    <li class="splide__slide">
+                        <img src="images/img7.jpg" alt="Гослинг на вечеринке у Стейси">
+                    </li>
+                    <li class="splide__slide">
+                        <img src="images/img8.jpg" alt="Гослинг осознал, что скоро сессия">
+                    </li>
+                    <li class="splide__slide">
+                        <img src="images/img9.jpg" alt="Гослинг в коллаборации с Минцифры">
+                    </li>
+                    <li class="splide__slide">
+                        <img src="images/img1.jpg" alt="Гослинг ест суп">
+                    </li>
+                    <li class="splide__slide">
+                        <img src="images/img2.jpg" alt="Гослинг в булочной">
+                    </li>
+                    
+                </ul>
+            </div>
+        </section>
+    </div>
 </body>
+
 </html>
